@@ -1,0 +1,70 @@
+/* App.css */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #050505;
+  border-radius: 4px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.product-info {
+  margin-top: 10px;
+}
+
+.quantity-controls button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #41e40f;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.quantity-controls button:hover {
+  background-color: #0056b3;
+  
+}
+
+.box {
+  width: 70%;
+  height: 50px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  background-color: #6629c3;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
